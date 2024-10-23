@@ -6,7 +6,7 @@ const app = express();
 
  // CORS middleware
 const corsOptions = {
-    origin: '*',
+    origin: true,
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'OPTIONS'],
     credentials: true, 
   };
