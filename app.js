@@ -6,7 +6,7 @@ const app = express();
 
  // CORS middleware
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://herogram.vercel.app',
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'OPTIONS'],
     credentials: true, 
   };
