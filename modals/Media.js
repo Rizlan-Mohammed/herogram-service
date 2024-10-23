@@ -43,7 +43,7 @@ const mediaSchema = new mongoose.Schema({
     }
 });
 
-// Create the Media model
+
 const Media = mongoose.model('Media', mediaSchema);
 
 export default Media;
