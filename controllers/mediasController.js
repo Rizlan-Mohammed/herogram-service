@@ -91,7 +91,7 @@ export const shareMedia = async (req, res) => {
         res.status(200).json({
             message: 'Media shared successfully',
             shareId: media.shareId,
-            shareLink: `http://localhost:3000/media/share/${media.shareId}`
+            shareLink: `https://herogram.vercel.app/media/share/${media.shareId}`
         });
     } catch (error) {
         console.error(error);
